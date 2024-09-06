@@ -1,0 +1,152 @@
+
+
+@font-face {
+    font-family: "Lexend";
+    src: url("../font/Lexend-VariableFont_wght.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body {
+    background-color:#598C38; 
+    font-family: "Lexend", sans-serif;
+}
+
+header {
+    background-image: url('img/fundo.png');
+    background-size: cover;
+    height: 500px;
+    padding-top: 150px;
+}
+
+.titulo {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.subtitulo {
+    font-size: 30px;
+}
+
+.imagem {
+    height: 300px;
+}
+
+.divisao {
+    background-color: #F4F3F3;
+    width: 320px;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    font-size: 16px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.nome {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.redes {
+    color: #F4F3F3;
+    font-weight: 300;
+    font-size: 19px;
+    justify-content: end;
+}
+
+.sobre {
+    background-color: #F4F3F3;
+    padding: 70px 150px;
+}
+
+.sobre .nome {
+    color: #000000;
+    font-size: 40px;
+}
+
+h3 {
+    color: #598C38;
+    font-size: 19px;
+}
+
+.textoSobre {
+    color: #000000;
+    font-size: 20px;
+}
+
+section, footer, header {
+    padding: 0px 150px;
+}
+h2{
+    font-size: 30px;
+    color: #F4F3F3;
+    font-weight: 500;
+    display: flex;
+}
+.impactto{
+    display: flex;
+    font-size: 40px;
+    color: #F4F3F3;
+    font-weight: 300;
+    
+}
+.impactom{
+    display: flex;
+    font-size: 40px;
+    color: #F4F3F3;
+    font-weight: 300;
+    
+}
+.impactoo{
+    
+    display: flex;
+    font-size: 40px;
+    color: #F4F3F3;
+    font-weight: 300;
+
+}
+
+
+.container{
+      
+        flex-direction: column;
+        justify-content: center;
+        align-items: right;
+            width: 2100px;
+            height: 850px;  
+            background-color: #476B30;
+    
+        }
+.nosso1{
+    display: flex;
+    justify-content: column;
+    align-items: center;
+   margin-right: 3px;
+}
+.lorem{
+    color: #F4F3F3;
+    font-size: 23px;
+    font-weight: 150;
+    display: flex;
+}
+.imagem2{
+    width: 300px;
+    height: 200px;
+}
+.nossoimpacto{
+    font-size: 35px;
+}
